@@ -1,0 +1,164 @@
+{
+  "Success": true,
+  "ApiMsg": "Saved Successfully",
+  "ApiCode": 8,
+  "Response": {
+      "IDCart": 31,
+      "IDClient": 153,
+      "created_at": "2024-07-11T12:16:59.000000Z",
+      "updated_at": "2024-07-14T12:48:53.000000Z",
+      "ShippingAmount": 0,
+      "PromoAmount": 0, 
+      "CartPrice": 15561,
+      "CartOfferPrice": 13364,
+      "CartTotalPrice": 2197,
+      "CartItems": [
+          {
+              "IDCartItem": 76,
+              "IDBrandProduct": 28,  
+              "BrandProductOfferPrice": 0, 
+               "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 78,
+              "IDBrandProduct": 30,
+              "BrandProductTitle": "Straline 6",
+              "BrandProductPrice": 140,
+              "BrandProductOfferPrice": 20,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/30\/p79VZe51yQJudvQAMMMVWiUVe0IOhJHExDwlGTK3.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 79,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 80,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 81,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 82,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 83,
+              "IDBrandProduct": 31,
+              "BrandProductTitle": "fgfgfgfgfg",
+              "BrandProductPrice": 950,
+              "BrandProductOfferPrice": 800,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/31\/uiWqqmWoEBLuHY1mfdu1prcpJ42KZedZuwW78Ot6.png",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 84,
+              "IDBrandProduct": 31,
+              "BrandProductTitle": "fgfgfgfgfg",
+              "BrandProductPrice": 950,
+              "BrandProductOfferPrice": 800,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/31\/uiWqqmWoEBLuHY1mfdu1prcpJ42KZedZuwW78Ot6.png",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 85,
+              "IDBrandProduct": 25,
+              "BrandProductTitle": "Straline",
+              "BrandProductPrice": 150,
+              "BrandProductOfferPrice": 10,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/25\/OUrv5ypKsomTHRZR48KUxGrWKDwlT3ukPwBxDsM1.png",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 86,
+              "IDBrandProduct": 25,
+              "BrandProductTitle": "Straline",
+              "BrandProductPrice": 150,
+              "BrandProductOfferPrice": 10,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/25\/OUrv5ypKsomTHRZR48KUxGrWKDwlT3ukPwBxDsM1.png",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 87,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 88,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 89,
+              "IDBrandProduct": 26,
+              "BrandProductTitle": "\u064a\u0644\u0641\u0644\u0641",
+              "BrandProductPrice": 34,
+              "BrandProductOfferPrice": 5,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/26\/tcnByHJQmzGBK2D3By0oi7j3K6eIzdl4gyfnCEmo.jpg",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 90,
+              "IDBrandProduct": 25,
+              "BrandProductTitle": "Straline",
+              "BrandProductPrice": 150,
+              "BrandProductOfferPrice": 10,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/25\/OUrv5ypKsomTHRZR48KUxGrWKDwlT3ukPwBxDsM1.png",
+              "CartItemAttributes": []
+          },
+          {
+              "IDCartItem": 91,
+              "IDBrandProduct": 29,
+              "BrandProductTitle": "\u0633\u0634",
+              "BrandProductPrice": 12333,
+              "BrandProductOfferPrice": 12,
+              "CartItemQuantity": 1,
+              "BrandProductLogo": "https:\/\/backend.etsawaa.com\/uploads\/brandproducts\/29\/DM4DNUHpqPbsSgBqWe4XQps0ZoUjY7O0and71cRg.jpg",
+              "CartItemAttributes": []
+          }
+      ]
+  }
+}

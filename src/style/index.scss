@@ -1,0 +1,187 @@
+@import 'varibale';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto+Mono:wght@200;300;400;500;600;700&family=Roboto:wght@700;900&family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+body {
+  background: #fff;
+  font-family: 'Cairo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $mainColor;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba($color: $mainColor, $alpha: 0.8);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+// Tasks Page
+.home_page {
+  .container {
+    padding: 30px;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .filter-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .task-card {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .task-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .ant-card-body {
+    flex-grow: 1;
+  }
+
+  .status_title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .title {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      font-family: cairo;
+      font-size: 19px;
+    }
+  }
+
+  .filter-small {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+}
+
+
+
+
+
+.ant-pro-form-login-title {
+  position: relative;
+  inset-block-start: 2px;
+  font-weight: 600;
+  font-size: 30px;
+  user-select: none;
+}
+
+
+
+
+
+// Login Style Page
+.app__auth {
+
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr);
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  padding-top: 100px;
+
+
+  .app__login-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ant-input-affix-wrapper .ant-input-prefix {
+    color: #b1b1b1;
+  }
+
+  .login-form {
+    width: 25%;
+    margin-top: 20px;
+
+    @media screen and (width < 1000px) {
+      width: 55%;
+    }
+
+    @media screen and (width < 767px) {
+      width: 95%;
+    }
+  }
+}
+
+// log_out position
+.log_out {
+  position: relative;
+
+  .out {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+
+
+    @media screen and (width<900px) {
+      right: 25px;
+      top: 20px;
+    }
+  }
+}
+
+
+/* media Query*/
+.filter_sm {
+  display: none;
+
+  @media screen and (width<900px) {
+    display: flex
+  }
+}
+
+.filter_lg {
+  display: flex;
+
+  @media screen and (width<900px) {
+    display: none;
+  }
+}
